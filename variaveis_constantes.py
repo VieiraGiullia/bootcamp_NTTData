@@ -20,3 +20,20 @@ STATES = ["SP", "RJ", "MG", "ES"]
 AMOUNT = 30.2
 
 print(ABS_PATH)
+
+# Lendo variaveis com o input
+
+# função input() - lê uma string do teclado
+name = input("Digite seu nome: ")
+
+# funcão print() - exibe uma string na tela
+name = "guilherme"
+lastname = "silveira"
+
+print(name, lastname)
+print(name, lastname, end="...") #end="" - não pula linha
+print(name, lastname, sep="-") #sep="-" - separa os valores
+
+# links uteis
+# https://docs.python.org/3/library/functions.html#input
+# https://docs.python.org/3/library/functions.html#print
