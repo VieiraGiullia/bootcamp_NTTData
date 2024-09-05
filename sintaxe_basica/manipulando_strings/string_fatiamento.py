@@ -57,9 +57,9 @@ print(f"O valor de PI é {PI:10.2f}") # os 10 primeiros caracteres são espaços
 
 aluna2 = "Giovanna Cecilia de Albuquerque"
 
-aluno2[0] # G
-aluno2[:9] # Giovanna
-aluno2[10:17] # Cecilia
+aluna2[0] # G
+aluna2[:9] # Giovanna
+aluna2[10:17] # Cecilia
 aluna2[10:17:2] # Ccia
 aluna2[:] # Giovanna Cecilia de Albuquerque
 aluna2[::-2] # ebuqelA ed ailiceC annaivoG
@@ -76,3 +76,5 @@ mensagem2 = f"""
         Eu estou aprendendo Python
 (essa msg tem recuos diferentes)
 """
+curso = "Python"
+print(curso[::-1])
